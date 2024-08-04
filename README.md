@@ -11,17 +11,17 @@ This repo is just for some testers. It is written in as easy language as possibl
 5. Then head to **Secret and variables** on left side pane.
 6. Then select **Actions** option.
 7. Under **Repository secrets**, there is a button **New repository secret**.
-8. Click on it, enter __Secret name__ as __MY_TOKEN__ and your github token starting from ghxxxxxxxxxxxxxxxxxxx in __Secret__ section.
+8. Click on it, enter *Secret name* as *MY_TOKEN* and your github token starting from ghxxxxxxxxxxxxxxxxxxx in *Secret* section.
 9. Press **Add Secret**.
 
 ## 2. Enabling workflows if disabled
 1. Open the forked repo, goto **Settings**.
 2. Then head to **Actions** on left side pane.
 3. Then select **General** option.
-4. Click on first radio button and press __Save__ button.
+4. Click on first radio button and press *Save* button.
 
 ## 3. Generating Flutter libs
-1. Open your forked repo, goto .github/workflows/__flutter-build.yml__.
+1. Open your forked repo, goto .github/workflows/*flutter-build.yml*.
 2. Edit it and speicfy the **Flutter version in line 20**.
 3. Commit the change.
 4. Goto **Actions** Tab, select **Flutter Build** workflow and Run it.
@@ -37,4 +37,4 @@ This repo is just for some testers. It is written in as easy language as possibl
 1. There are 2 workflows present in this repo. One creates flutter libs and the other workflow clears the actions and releases section after every 6 hours.
 2. This doesn't clutter the repo.
 
-The initial workflow file was given by __Rajesh khurana__. It was pushing the builds to artifacts. The workflow here is the upgraded version, needs 1 env but it pushes the libs along with flutter version to the **Releases section** of repo making it easier to locate and download files.
+The initial workflow file was given by *Rajesh khurana*. It was pushing the builds to artifacts. The workflow here is the upgraded version, needs 1 env but it pushes the libs along with flutter version to the **Releases section** of repo making it easier to locate and download files.
