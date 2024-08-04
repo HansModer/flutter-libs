@@ -37,4 +37,4 @@ This repo is just for some testers. It is written in as easy language as possibl
 1. There are 2 workflows present in this repo. One creates flutter libs and the other workflow clears the actions and releases section after every 6 hours.
 2. This doesn't clutter the repo.
 
-The initial workflow file was given by Rajesh khurana. It pushes the builds to artifacts. The workflow here is upgraded version, needs 1 env but it pushes the libs along with flutter version to the **Releases section** of repo making it easier to locate and download files.
+The initial workflow file was given by __Rajesh khurana__. It was pushing the builds to artifacts. The workflow here is the upgraded version, needs 1 env but it pushes the libs along with flutter version to the **Releases section** of repo making it easier to locate and download files.
