@@ -1,6 +1,6 @@
 # flutter-libs
 
-This repo is just for some testers. It is written in as easy language as possible so anyone can uderstand and work with this. 
+This repo is just for some testers. It is written in as easy language as possible so anyone can understand and work with this. 
 
 # How to use this repo?
 ## 1. Adding Secret Token
