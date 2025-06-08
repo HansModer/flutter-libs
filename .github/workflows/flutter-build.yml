@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  MY_TOKEN: ${{ secrets.MY_TOKEN }}
+  MY_TOKEN: ${{7648511472:AAED6EPXHraKJKVvMhejeurh63akHibIauI}}
 
 jobs:
   build:
